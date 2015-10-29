@@ -15,7 +15,9 @@
 
       $(window).scroll(function() {
         elems[currentElem].css('top', - $(window).scrollTop() + prevHeight);
-        checkElems();
+          if ($(window).scrollTop() > 0 && $(window).scrollTop() < $(document).outerHeight()) {
+            checkElems();
+          }
       });
 
       function checkElems() {

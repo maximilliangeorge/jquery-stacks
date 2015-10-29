@@ -5,8 +5,8 @@ body {
 div {
   width: 100%;
   height: 150vh;
-  border-bottom: 1em solid blue;
-  border-top: 1em solid red;
+  background-size: 10%;
+
 }
 
 .one {

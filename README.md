@@ -1,3 +1,6 @@
-# Stacks
+# jQuery Stacks
+![alt tag](https://raw.github.com/maximilliangeorge/jquery-stacks/master/img/illustration.png)
 
-![alt tag](https://raw.github.com/maximilliangeorge/jquery-stacks/master/img/img.png)
+## Usage
+Make sure each card is a non-positioned, full width element.
+    $(mySelector).stack();

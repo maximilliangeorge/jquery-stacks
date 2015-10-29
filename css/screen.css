@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+div {
+  width: 100%;
+  height: 150vh;
+  border-bottom: 1em solid blue;
+  border-top: 1em solid red;
+}
+
+.one {
+  background-image: url('../bg/bg_1.png');
+}
+
+.two {
+  background-image: url('../bg/bg_2.png');
+}
+
+.three {
+  background-image: url('../bg/bg_3.png');
+}
